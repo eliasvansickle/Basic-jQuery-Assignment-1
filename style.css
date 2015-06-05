@@ -52,19 +52,23 @@ blockquote, q {
 	#wrapper h1 {
 		display: inline-block;
 		vertical-align: top;
-		position: relative;
-		left: 180px;
+		position: absolute;
+		left: 760px;
+		font-weight: bolder;
 	}
 	#wrapper button {
 		display: inline-block;
 		vertical-align: top;
 		margin-top: 40px;
-
 	}
 	#wrapper p {
 		display: inline-block;
 		vertical-align: top;
 		margin-top: 40px;
+		font-family: "Courier New", Courier, monospace;
+		font-weight: bolder;
+		position: absolute;
+		left: 630px;
 	}
 		.onestyle {
 			font-size: 20px;
