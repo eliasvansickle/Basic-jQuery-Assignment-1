@@ -3,10 +3,13 @@ $(document).ready(function() {
 		$("h1.one").addClass("onestyle");
 	});
 	$("button.two").click(function() {
-		$("p.two").after("Hello Kitty");
+		$("p.two").after("Hello World");
 	});
 	$("button.three").click(function() {
-		$("p.three").append("Hello Kitty");
+		$("p.three").append("Hello World");
+	});
+	$("button.four").click(function() {
+		$("img.four").attr("width","100px");
 	});
 
 

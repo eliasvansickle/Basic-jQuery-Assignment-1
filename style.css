@@ -44,22 +44,24 @@ blockquote, q {
 /*====================MY CODE BELOW======================================*/
 
 #wrapper {
-	background-color: gray;
+	/*background-color: gray;*/
 	width: 1000px;
 	min-height: 200px;
 	margin: 0 auto;
 }
+	div {
+		padding: 20px;
+	}
 	#wrapper h1 {
 		display: inline-block;
 		vertical-align: top;
-		position: absolute;
-		left: 760px;
+		margin-left: 250px;
 		font-weight: bolder;
 	}
 	#wrapper button {
 		display: inline-block;
 		vertical-align: top;
-		margin-top: 40px;
+		margin-top: 10px;
 	}
 	#wrapper p {
 		display: inline-block;
@@ -67,13 +69,13 @@ blockquote, q {
 		margin-top: 40px;
 		font-family: "Courier New", Courier, monospace;
 		font-weight: bolder;
-		position: absolute;
-		left: 630px;
+		margin-left: -415px;
 	}
 		.onestyle {
 			font-size: 20px;
 			color: red;
 		}
+
 
 
 
