@@ -35,6 +35,20 @@ $(document).ready(function() {
 	$("button.elevens").click(function() {
 		$("p.eleven").show();
 	});
-
+	$("button.twelvedown").click(function() {
+		$("p.twelve").slideDown();
+	});
+	$("button.twelveup").click(function() {
+		$("p.twelve").slideUp();
+	});
+	$("button.thirteen").click(function() {
+		$("p.thirteen").toggle();
+	});
+	$("button.fourteenIn").click(function() {
+		$("p.fourteen").fadeIn();
+	});
+	$("button.fourteenOut").click(function() {
+		$("p.fourteen").fadeOut();
+	});
 
 });

@@ -7,7 +7,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
-	outline: 1px dotted red;
+	/*outline: 1px dotted red;*/
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -44,18 +44,17 @@ blockquote, q {
 /*====================MY CODE BELOW======================================*/
 
 #wrapper {
-	/*background-color: gray;*/
+	background-color: white;
 	width: 1000px;
 	min-height: 200px;
 	margin: 0 auto;
 }
 	div {
+		border: 5px solid black;
 		padding: 20px;
 	}
 	#wrapper h1 {
-		display: inline-block;
-		vertical-align: top;
-		margin-left: 250px;
+		text-align: center;
 		font-weight: bolder;
 	}
 	#wrapper button {
@@ -64,12 +63,10 @@ blockquote, q {
 		margin-top: 10px;
 	}
 	#wrapper p {
-		display: inline-block;
-		vertical-align: top;
 		margin-top: 40px;
 		font-family: "Courier New", Courier, monospace;
 		font-weight: bolder;
-		margin-left: -415px;
+		text-align: center;
 	}
 		.onestyle {
 			font-size: 20px;
@@ -77,6 +74,12 @@ blockquote, q {
 		}
 		p.six img {
 			margin-left: 371px;
+		}
+		input.fifteen {
+			margin-top: 40px;
+			font-family: "Courier New", Courier, monospace;
+			font-weight: bolder;
+			text-align: center;
 		}
 
 
